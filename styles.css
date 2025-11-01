@@ -1,1 +1,31 @@
-/*  your css code here. If applicable */
+/* Main container */
+.container {
+  width: 400px;
+  margin: 50px auto; /* Center the container */
+  padding: 20px;
+  text-align: center; /* Center inline-block elements inside */
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+
+/* Common style for all color blocks */
+.container div {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 50%; /* Make circles */
+}
+
+/* Individual block colors */
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
